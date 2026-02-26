@@ -15,3 +15,13 @@ the following form: YYYY.0M.0D.
 - Designed a simple yes/no flag component
 - Completed additional considerations for each component
 - Documented post-assignment notes in the brainstorming document
+
+## 2026.02.26
+
+### Added
+
+- Implemented a score tracker proof-of-concept in `src/components/scoretracker/ScoreTrackerPOC.java`
+
+### Updated
+
+- Completed the Part 2 proof-of-concept write-up in `doc/02-component-proof-of-concept/02-component-proof-of-concept.md`

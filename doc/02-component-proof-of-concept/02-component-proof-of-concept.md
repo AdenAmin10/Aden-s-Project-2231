@@ -1,12 +1,10 @@
 # Portfolio Part 2: Component Proof-of-Concept
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Name**: Aden Amin
+- **Dot Number**: Amin.296
+- **Due Date**: 02/26/26
 
 ## Assignment Overview
-
-<!-- TODO: read the assignment overview then delete this comment -->
 
 Previously, you brainstormed three ideas, and hopefully you got some feedback as
 well. However, it's impossible to know how reasonable your design actually is
@@ -30,8 +28,6 @@ the more work you can put in now, the better.
 
 ## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
-
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
 opening the TODOs window from the sidebar. The icon looks like a tree and will
@@ -53,8 +49,6 @@ to the tree diagram (you may remove this one as well):
 
 ## Assignment Learning Objectives
 
-<!-- TODO: read the assignment learning objectives then delete this comment -->
-
 Without learning objectives, there really is no clear reason why a particular
 assessment or activity exists. Therefore, to be completely transparent, here is
 what we're hoping you will learn through this particular aspect of the portfolio
@@ -67,8 +61,6 @@ project. Specifically, students should be able to:
 3. Assemble a minimal working implementation of one of their designs
 
 ## Assignment Rubric: 10 Points
-
-<!-- TODO: read the assignment rubric then delete this comment -->
 
 Again, to be completely transparent, most of the portfolio project, except the
 final submission, is designed as a formative assessment. Formative assessments
@@ -114,8 +106,16 @@ Below is further rationale/explanation for the rubric items above:
 > to create a new design. In you do end up picking one at random, you should
 > disclose that here as well.
 
-<!-- TODO: briefly argue your choice of design or design something
-new; then delete this comment -->
+I selected the **Score tracker** design from Part 1. I considered all three
+ideas, but this was the best fit for this stage for a few reasons:
+
+1. It has enough complexity to prove feasibility without being too large for a
+   single-file MVP.
+2. It naturally supports both kernel-style methods (`addPoints`, `addFoul`,
+   `nextPeriod`, getters) and secondary-style methods (`addThreePointer`,
+   `isTie`, `getLeader`, `resetGame`).
+3. It aligns with my sports interest and career goals, so it is more motivating
+   to refine over the rest of the portfolio project.
 
 > Once you've argued your choice of design, make a branch in your new repo called
 > something like `proof-of-concept`. There are many ways to do this, but my
@@ -126,7 +126,7 @@ new; then delete this comment -->
 > we'll want a branch that you can later make a pull request from with all
 > your changes.
 
-<!-- TODO: make a new branch from main then delete this comment -->
+This work should be completed on a `proof-of-concept` branch from `main`.
 
 ## Assignment Tasks
 
@@ -146,6 +146,9 @@ that at this point.
 When you're ready to start, create a Java file anywhere in `src` and begin
 coding. See the submission directions below when you're ready to submit.
 
+Implemented proof-of-concept file:
+`src/components/scoretracker/ScoreTrackerPOC.java`
+
 ## Post-Assignment
 
 The following sections detail everything that you should do once you've
@@ -153,7 +156,7 @@ completed the assignment.
 
 ### Changelog
 
-<!-- TODO: update CHANGELOG then delete this comment -->
+Updated [CHANGELOG.md](../../CHANGELOG.md) for this assignment work.
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -188,8 +191,6 @@ request merge (or at least tag your commits). This is not required.
 
 ### Submission
 
-<!-- TODO: read the submission instructions then delete this comment -->
-
 Assuming that your project is in a GitHub repo somewhere and your changes are on
 a proof-of-concept branch, then what we'll want you to do is create a pull
 request of all your changes. Pull requests are pretty easy to make if you're
@@ -211,7 +212,7 @@ to look over your changes. Otherwise, you defer needed changes to later pull
 requests, which could sacrifice the overall quality of your work or result in
 major rework.
 
-<!-- TODO: paste the URL to Carmen then delete this comment -->
+I will submit the pull request URL to Carmen after opening the PR.
 
 ### Peer Review
 
@@ -242,7 +243,6 @@ If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
 
-<!-- TODO: follow the link to share your feedback then delete this comment -->
 
 [pottery-fails]: https://www.youtube.com/shorts/Kqb9l113F_0?feature=share
 [survey]: https://forms.gle/dumXHo6A4Enucdkq9
