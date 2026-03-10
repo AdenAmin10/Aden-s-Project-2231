@@ -15,3 +15,16 @@ the following form: YYYY.0M.0D.
 - Designed a simple yes/no flag component
 - Completed additional considerations for each component
 - Documented post-assignment notes in the brainstorming document
+
+## 2026.03.10
+
+### Added
+
+- Designed `ScoreTrackerKernel` and `ScoreTracker` interfaces in `src/components/scoretracker`
+- Added client-facing JavaDoc contracts for kernel and enhanced method headers
+- Added a hierarchy diagram and interface-design update notes to Part 3 documentation
+
+### Updated
+
+- Refined API naming to `score`, `fouls`, and `period` for compact kernel operations
+- Replaced nullable leader-reporting with a contract-based `leader()` precondition
