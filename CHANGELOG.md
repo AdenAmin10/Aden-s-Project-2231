@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
+## 2026.04.15
+
+### Added
+
+- Added `ScoreTracker1` kernel implementation in `src/components/scoretracker`
+- Implemented all kernel and `Standard` methods with a constructor and private `createNewRep()`
+- Added explicit representation convention/correspondence documentation in the kernel class
+
+### Updated
+
+- Completed Part 5 kernel-implementation write-up with representation rationale and branch notes
+
 ## 2026.04.01
 
 ### Added
