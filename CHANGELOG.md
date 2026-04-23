@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
+## 2026.04.23
+
+### Added
+
+- Added kernel/Standard JUnit coverage in `test/components/scoretracker/ScoreTracker1Test.java`
+- Added secondary-method JUnit coverage in `test/components/scoretracker/ScoreTrackerTest.java`
+- Added two use-case demos in `src/ScoreTrackerPlayByPlayDemo.java` and `src/ScoreTrackerLeadAlertDemo.java`
+
+### Updated
+
+- Completed Part 6 finishing-touches write-up with reflection responses and branch notes
+
 ## 2026.04.15
 
 ### Added
