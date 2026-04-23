@@ -1,8 +1,8 @@
 # Portfolio Part 6: Finishing Touches
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
+- **Name**: Aden Amin
+- **Dot Number**: Amin.296
+- **Due Date**: 04/23/26
 
 ## Assignment Overview
 
@@ -49,8 +49,6 @@ Many of these additional techniques are somewhat out of the scope of this
 course, but just knowing about them could set you up for long term success.
 
 ## Assignment Checklist
-
-<!-- TODO: browse the checklist then delete this comment -->
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -141,7 +139,7 @@ to see them. If you don't like this workflow, you may try following the
 rebase strategies described [here](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr)
 and [here](https://stackoverflow.com/questions/18021888/continue-working-on-a-git-branch-after-making-a-pull-request).
 
-<!-- TODO: make a new branch from main then delete this comment -->
+Branch note: completed Part 6 work on branch `a-proof-of-concept-branch`.
 
 ## Assignment Tasks
 
@@ -307,18 +305,30 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+I understand software development much better after this project because I had
+to connect design, contracts, implementation, and testing in one coherent
+workflow. In class exercises, those phases are often split up, but here I had
+to make design decisions that carried all the way into code and tests. That
+made tradeoffs more concrete, especially around API clarity and how easy an
+implementation is to verify.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+The biggest gap this surfaced was test strategy. I was comfortable writing
+methods, but I was weaker at designing a complete and defensible test plan.
+I addressed that by mapping each method contract to at least one direct test
+case and then adding state-preservation checks for observer methods so tests
+verified behavior, not just one return value.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+My perspective changed in a positive way. I still enjoy software development,
+but now I see it less as "write code until it works" and more as "design a
+small system with contracts, then prove it behaves correctly." That shift made
+the process feel more professional and less trial-and-error.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -326,29 +336,48 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+I picked up several skills:
+
+- Writing and refining design-by-contract documentation for interfaces
+- Building kernel and secondary layers that preserve representation invariants
+- Translating contracts into targeted JUnit tests
+- Structuring a component repository with changelog and assignment artifacts
+- Using git branches and pull requests as part of normal iteration
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+- Designed and implemented a Java component API using interface, abstract, and
+  concrete implementation layers
+- Wrote JUnit test suites for kernel, standard, and secondary methods based on
+  method contracts
+- Applied design-by-contract practices (preconditions, postconditions, and
+  representation invariants) in production-style code
+- Managed iterative development with Git branching, changelog updates, and pull
+  request workflow
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+It increased my interest in software engineering because I enjoyed the end-to-
+end ownership of a feature set. I like work that combines design and coding,
+and this project confirmed that I want roles where I can do both, not only
+implementation.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+To stay on this trajectory, I can keep building small but complete projects
+where I practice API design, testing, and documentation together. I can also
+contribute to open-source Java projects to get feedback from developers outside
+class. Mentors I could contact include CSE course staff, my software sequence
+peers who gave strong code reviews, and upperclassmen or internship teammates
+who work in Java-heavy codebases.
 
 ### Changelog
-
-<!-- TODO: update CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -383,8 +412,6 @@ like to accomplish that, you will need to make GitHub releases after each pull
 request merge (or at least tag your commits). This is not required.
 
 ### Submission
-
-<!-- TODO: read the submission instructions then delete this comment -->
 
 Assuming that your project is in a GitHub repo somewhere and your changes are on
 a proof-of-concept branch, then what we'll want you to do is create a pull
@@ -435,7 +462,5 @@ PDF to read this rubric as a table).
 If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
-
-<!-- TODO: follow the link to share your feedback then delete this comment -->
 
 [survey]: https://forms.gle/dumXHo6A4Enucdkq9
